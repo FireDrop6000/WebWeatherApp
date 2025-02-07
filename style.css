@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fefefa;
+}
+.card {
+  width: 90%;
+  max-width: 470px;
+  /* background: #f2f3f4; */
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color: #1b1b1b;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: #f2f3f4;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background: #f2f3f4;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.search button img {
+  width: 16px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.column {
+  flex: 1;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.weather-icon {
+  width: 170px;
+  margin-left: 24px;
+}
+.temp,
+.desc,
+.city {
+  text-align: left;
+  margin-left: 12px;
+}
+.temp {
+  font-size: 110px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.desc {
+  font-size: 20px;
+  font-weight: 700;
+}
+.city {
+  font-size: 23px;
+  font-weight: bold;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  min-width: 195px;
+}
+.col img {
+  width: 60px;
+  margin-right: 5px;
+}
+.col p {
+  font-size: 13px;
+}
+.humidity,
+.wind {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.weather {
+  display: none;
+}
+.error {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  display: none;
+}
+.error p {
+  margin-top: -125px;
+  font-weight: bold;
+  color: red;
+}
+.error img {
+  margin-top: -100px;
+}
