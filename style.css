@@ -134,7 +134,7 @@ body {
   margin-top: -100px;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 768px) {
   .card {
     padding: 25px 15px;
   }
