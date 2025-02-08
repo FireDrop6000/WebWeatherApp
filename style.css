@@ -126,12 +126,11 @@ body {
   display: none;
 }
 .error p {
-  margin-top: -125px;
   font-weight: bold;
   color: red;
 }
 .error img {
-  margin-top: -100px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
